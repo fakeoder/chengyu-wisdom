@@ -71,8 +71,14 @@ Idiom button.
 ## Data Model
 
 Content is stored as JSON (validated against JSON Schema Draft-07) with one
-entry per idiom. Each entry has a Chinese idiom, pinyin, an English story, and
-a core `cultural_insight_en` field.
+entry per idiom. Each entry has a Chinese idiom, pinyin, an English story, a
+core `cultural_insight_en` field, and an `img` field pointing to its artwork.
+
+**Artwork** lives in `src/assets/idioms/`, named after the idiom's full pinyin
+(e.g. `saiwengshima.png` for 塞翁失马) and referenced by filename in the `img`
+field. Drop a PNG in that folder to make it appear on the detail page and in
+entry cards; entries without an image render no image area at all. `npm run
+validate` warns (does not fail) about missing artwork files.
 
 See [design.md](design.md) for the full schema and TypeScript definition.
 
@@ -84,8 +90,19 @@ at build time and rendered into static pages. Deployable to any static CDN.
 
 ## Project Status
 
-Documentation phase: the design document and content schema are in place.
-See [design.md](design.md) for the complete design document.
+Implemented: static site built with **Vite + TypeScript + React + Tailwind CSS**,
+with content validated against the JSON Schema (§4 of [design.md](design.md)).
+
+```bash
+npm install        # install dependencies
+npm run dev        # start the dev server
+npm run validate   # validate content JSON against the schema
+npm run build      # validate + typecheck + emit static assets to dist/
+npm run preview    # serve the built site locally
+```
+
+Static site, compiled at build time — no runtime server. Deployable to any
+static CDN or object storage.
 
 ## License
 

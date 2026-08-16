@@ -1,0 +1,21 @@
+{
+  "name": "Chengyu Wisdom",
+  "short_name": "Chengyu Wisdom",
+  "description": "Classic Chinese idioms as a gateway to traditional philosophy, mindset and values.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#faf6ee",
+  "theme_color": "#a63c2f",
+  "icons": [
+    {
+      "src": "favicon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

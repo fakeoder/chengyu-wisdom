@@ -1,0 +1,47 @@
+[
+  {
+    "id": "philosophy",
+    "label": "Philosophy",
+    "tagline": "Daoist and Confucian ways of seeing the world"
+  },
+  {
+    "id": "strategy",
+    "label": "Strategy",
+    "tagline": "Ancient military and diplomatic cunning"
+  },
+  {
+    "id": "virtue",
+    "label": "Virtue",
+    "tagline": "Moral character and integrity"
+  },
+  {
+    "id": "leadership",
+    "label": "Leadership",
+    "tagline": "How rulers earn and wield authority"
+  },
+  {
+    "id": "resilience",
+    "label": "Resilience",
+    "tagline": "Endurance through hardship and humiliation"
+  },
+  {
+    "id": "friendship",
+    "label": "Friendship",
+    "tagline": "Loyalty, trust and reconciliation"
+  },
+  {
+    "id": "harmony",
+    "label": "Harmony",
+    "tagline": "Balance and putting the common good first"
+  },
+  {
+    "id": "artistry",
+    "label": "Artistry",
+    "tagline": "Craft, aesthetics and the spirit of Chinese art"
+  },
+  {
+    "id": "wisdom",
+    "label": "Wisdom",
+    "tagline": "Practical life lessons from ancient minds"
+  }
+]

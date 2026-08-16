@@ -1,0 +1,71 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://chengyu-wisdom.example/schema/entry.json",
+  "title": "ChengyuEntry",
+  "description": "One chengyu entry. Required fields per design.md §4.1, optional per §4.2.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "img",
+    "idiom",
+    "pinyin",
+    "core_meaning_en",
+    "story_en",
+    "cultural_insight_en",
+    "tags"
+  ],
+  "properties": {
+    "id": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "img": {
+      "type": "string",
+      "description": "Artwork filename in src/assets/idioms/, named after the idiom's full pinyin",
+      "pattern": "^[a-z0-9_]+\\.png$"
+    },
+    "idiom": {
+      "type": "string",
+      "pattern": "^[\\u4e00-\\u9fff]{4}$"
+    },
+    "pinyin": {
+      "type": "string",
+      "minLength": 1
+    },
+    "literal_translation_en": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "core_meaning_en": {
+      "type": "string",
+      "minLength": 10
+    },
+    "history_background_en": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "story_en": {
+      "type": "string",
+      "minLength": 80
+    },
+    "cultural_insight_en": {
+      "type": "string",
+      "minLength": 80
+    },
+    "modern_cultural_relevance_en": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "origin_source": {
+      "type": ["string", "null"],
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1,
+      "uniqueItems": true
+    }
+  }
+}

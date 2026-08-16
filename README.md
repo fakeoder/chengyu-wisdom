@@ -4,6 +4,8 @@
 > Chinese idioms (_chengyu_) as a gateway to explain traditional Chinese
 > philosophy, mindset, values, and historical wisdom to global audiences.
 
+**Source code**: <https://github.com/fakeoder/chengyu-wisdom>
+
 Built for **culture enthusiasts** — not Chinese language learners.
 
 ## Who It's For
@@ -75,8 +77,8 @@ entry per idiom. Each entry has a Chinese idiom, pinyin, an English story, a
 core `cultural_insight_en` field, and an `img` field pointing to its artwork.
 
 **Artwork** lives in `src/assets/idioms/`, named after the idiom's full pinyin
-(e.g. `saiwengshima.png` for 塞翁失马) and referenced by filename in the `img`
-field. Drop a PNG in that folder to make it appear on the detail page and in
+(e.g. `saiwengshima.webp` for 塞翁失马) and referenced by filename in the `img`
+field. Drop a WebP in that folder to make it appear on the detail page and in
 entry cards; entries without an image render no image area at all. `npm run
 validate` warns (does not fail) about missing artwork files.
 

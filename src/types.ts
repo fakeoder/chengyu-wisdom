@@ -1,7 +1,7 @@
 /** One chengyu entry. See design.md §4 for the field contract. */
 export interface ChengyuEntry {
   id: number;
-  /** Filename of the artwork in src/assets/idioms/, e.g. "saiwengshima.png" */
+  /** Filename of the artwork in src/assets/idioms/, e.g. "saiwengshima.webp" */
   img: string;
   idiom: string;
   pinyin: string;

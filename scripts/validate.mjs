@@ -61,7 +61,7 @@ try {
     entries.forEach((entry) => {
       if (!existsSync(path.join(idiomsDir, entry.img))) {
         warn(
-          `"${entry.idiom}" references missing artwork: ${entry.img} — drop the PNG into src/assets/idioms/`,
+          `"${entry.idiom}" references missing artwork: ${entry.img} — drop the file into src/assets/idioms/`,
         );
       }
     });

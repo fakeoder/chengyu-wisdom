@@ -23,7 +23,7 @@
     "img": {
       "type": "string",
       "description": "Artwork filename in src/assets/idioms/, named after the idiom's full pinyin",
-      "pattern": "^[a-z0-9_]+\\.png$"
+      "pattern": "^[a-z0-9_]+\\.webp$"
     },
     "idiom": {
       "type": "string",

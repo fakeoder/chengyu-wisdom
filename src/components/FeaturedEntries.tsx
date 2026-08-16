@@ -1,4 +1,5 @@
-import { getFeaturedEntries } from "../data";
+import { Link } from "react-router-dom";
+import { getFeaturedEntries, entries } from "../data";
 import SectionHeading from "./SectionHeading";
 import EntryCard from "./EntryCard";
 
@@ -13,6 +14,14 @@ export default function FeaturedEntries() {
         {getFeaturedEntries(6).map((entry) => (
           <EntryCard key={entry.id} entry={entry} />
         ))}
+      </div>
+      <div className="mt-8 text-center">
+        <Link
+          to="/stories"
+          className="inline-flex min-h-11 items-center border border-ink/30 px-6 py-3 text-sm font-medium tracking-wide text-ink transition-colors hover:border-seal hover:text-seal"
+        >
+          View All {entries.length} Stories →
+        </Link>
       </div>
     </section>
   );

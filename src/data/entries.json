@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "img": "saiwengshima.png",
+    "img": "saiwengshima.webp",
     "idiom": "塞翁失马",
     "pinyin": "sài wēng shī mǎ",
     "literal_translation_en": "The old man at the frontier loses his horse",
@@ -15,7 +15,7 @@
   },
   {
     "id": 2,
-    "img": "woxinchangdan.png",
+    "img": "woxinchangdan.webp",
     "idiom": "卧薪尝胆",
     "pinyin": "wò xīn cháng dǎn",
     "literal_translation_en": "Sleep on firewood and taste gall",
@@ -29,7 +29,7 @@
   },
   {
     "id": 3,
-    "img": "fujinqingzui.png",
+    "img": "fujinqingzui.webp",
     "idiom": "负荆请罪",
     "pinyin": "fù jīng qǐng zuì",
     "literal_translation_en": "Carry brambles on one's back and ask for punishment",
@@ -43,7 +43,7 @@
   },
   {
     "id": 4,
-    "img": "sangumaolu.png",
+    "img": "sangumaolu.webp",
     "idiom": "三顾茅庐",
     "pinyin": "sān gù máo lú",
     "literal_translation_en": "Three visits to the thatched cottage",
@@ -57,7 +57,7 @@
   },
   {
     "id": 5,
-    "img": "hualongdianjing.png",
+    "img": "hualongdianjing.webp",
     "idiom": "画龙点睛",
     "pinyin": "huà lóng diǎn jīng",
     "literal_translation_en": "Paint a dragon, dot in the eyes",
@@ -71,7 +71,7 @@
   },
   {
     "id": 6,
-    "img": "yugongyishan.png",
+    "img": "yugongyishan.webp",
     "idiom": "愚公移山",
     "pinyin": "yú gōng yí shān",
     "literal_translation_en": "The foolish old man moves the mountains",
@@ -85,7 +85,7 @@
   },
   {
     "id": 7,
-    "img": "wanbiguizhao.png",
+    "img": "wanbiguizhao.webp",
     "idiom": "完璧归赵",
     "pinyin": "wán bì guī zhào",
     "literal_translation_en": "Return the jade intact to Zhao",
@@ -99,7 +99,7 @@
   },
   {
     "id": 8,
-    "img": "kezhouqiujian.png",
+    "img": "kezhouqiujian.webp",
     "idiom": "刻舟求剑",
     "pinyin": "kè zhōu qiú jiàn",
     "literal_translation_en": "Carve the boat to seek the sword",
@@ -113,7 +113,7 @@
   },
   {
     "id": 9,
-    "img": "wangmeizhike.png",
+    "img": "wangmeizhike.webp",
     "idiom": "望梅止渴",
     "pinyin": "wàng méi zhǐ kě",
     "literal_translation_en": "Gaze at plums to quench thirst",
@@ -127,7 +127,7 @@
   },
   {
     "id": 10,
-    "img": "zhishangtanbing.png",
+    "img": "zhishangtanbing.webp",
     "idiom": "纸上谈兵",
     "pinyin": "zhǐ shàng tán bīng",
     "literal_translation_en": "Discuss warfare on paper",

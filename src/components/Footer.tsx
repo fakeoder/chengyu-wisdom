@@ -45,8 +45,16 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="mt-10 border-t border-paper-edge pt-5 text-xs text-ink-faint">
-          © {new Date().getFullYear()} Chengyu Wisdom contributors. All rights reserved.
+        <div className="mt-10 flex flex-col items-start justify-between gap-3 border-t border-paper-edge pt-5 text-xs text-ink-faint sm:flex-row sm:items-center">
+          <p>© {new Date().getFullYear()} Chengyu Wisdom contributors. All rights reserved.</p>
+          <a
+            href="https://github.com/fakeoder/chengyu-wisdom"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="transition-colors hover:text-seal"
+          >
+            GitHub
+          </a>
         </div>
       </div>
     </footer>

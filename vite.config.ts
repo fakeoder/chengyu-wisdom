@@ -5,4 +5,14 @@ import tailwindcss from "@tailwindcss/vite";
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   base: "./",
+  build: {
+    rollupOptions: {
+      input: {
+        main: "index.html",
+        privacy: "privacy.html",
+        terms: "terms.html",
+        pricing: "pricing.html",
+      },
+    },
+  },
 });
